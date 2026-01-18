@@ -1,0 +1,18 @@
+CREATE DATABASE intern_training_db;
+USE intern_training_db;
+
+CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(100),
+    age INT
+);
+
+INSERT INTO students VALUES
+(1, 'pallavi', 'pallavi@gmail.com', 21),
+(2, 'Sitaraa sharma', 'sitaraaa@gmail.com', 22),
+(3, 'ajay Verma', 'ajay@gmail.com', 20),
+(4, 'Priya ', 'priya@gmail.com', 23),
+(5, 'Ramu', 'ramu@gmail.com', 21);
+
+SELECT * FROM students;
